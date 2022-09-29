@@ -1,0 +1,11 @@
+nome tabella: auto_usate
+
+
+colonne:
+
+id                                             INT                         PK: AUTO_INCREMENT, UNIQUE, NOT_NULL
+modello                                        TEXT                        NOT_NULL
+marca                                          VARCHAR                     NOT_NULL
+data_immatricolazione                          DATE                        NULLABLE
+kilometri_percorsi                             INT                         DEAFAULT(0)
+prezzo                                         INT                         DEFAULT(0)
